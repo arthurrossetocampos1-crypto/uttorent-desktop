@@ -1,0 +1,14 @@
+# Configuration for git attributes
+*.py linguist-detectable
+*.min.css linguist-generated
+
+*.map linguist-generated
+*.json linguist-detectable=false
+
+*.svg text
+
+build/* linguist-vendored
+
+*.woff2 binary  
+public/* linguist-vendored  
+*.yaml linguist-detectable=false
